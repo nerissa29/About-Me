@@ -13,7 +13,7 @@ if (question1 === 'y' || question1 === 'yes') {
   alert(`${userName}, you are correct. I have two kids!`);
 } else if (question1 === 'n' || question1 === 'no') {
   // console.log(`${userName}'s guess is wrong!`);
-  alert(`${userName}, you are wrong! I am a mother of two!`)
+  alert(`${userName}, you are wrong! I am a mother of two!`);
 }
 
 let question2 = prompt('Do I have a pet named Petra?').toLowerCase();
