@@ -1,0 +1,54 @@
+body {
+  margin: auto;
+  background-color: rgb(247, 236, 237);
+  width: 700px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(92, 62, 62);
+  font-size: 3vw;
+  margin-top: 50px;
+  
+}
+
+.pic-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+  
+}
+
+h3 {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;;
+}
+
+p {
+  margin-top: 10px;;
+}
+
+.bio-sect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #d3bacb;
+  margin-top: 80px;
+  height: 900px;
+  
+}
+
+.info-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  width: 500px;
+  height: 400px;
+  padding: 15px;
+}
