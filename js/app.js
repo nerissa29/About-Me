@@ -56,12 +56,4 @@ if (question5 === 'y' || question5 === 'yes') {
   alert(`${userName}, as much as I want you to be correct, you are wrong!`);
 }
 
-let question6 = prompt('Guess a number from 1-20');
-
-if (quest)
-
-
-
-
-
 alert(`Thank you ${userName} for playing this game with me. Have a great day!`);
