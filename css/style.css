@@ -12,6 +12,15 @@ h1 {
   
 }
 
+h3, h2 {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;;
+  padding: 10px;
+}
+
+
+
 .pic-div {
   display: flex;
   justify-content: center;
@@ -21,10 +30,12 @@ h1 {
   
 }
 
-h3 {
-  font-size: 25px;
-  margin-top: 10px;
-  margin-bottom: 10px;;
+ul {
+  list-style: circle;
+}
+
+ol {
+  list-style: 1;
 }
 
 p {
@@ -38,17 +49,17 @@ p {
   flex-direction: column;
   background-color: #d3bacb;
   margin-top: 80px;
-  height: 900px;
+  height: 950px;
   
 }
 
-.info-div {
+.info-edu, .info-fave {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   background-color: aliceblue;
   width: 500px;
-  height: 400px;
-  padding: 15px;
+  height: 850px;
+  padding-left: 35px;
 }
