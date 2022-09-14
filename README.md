@@ -19,7 +19,7 @@ Questions include:
 
 -[eslintrc file](https://github.com/codefellows/seattle-code-201d90/blob/main/configs/.eslintrc.json)
 -[gitignore file](https://github.com/codefellows/seattle-code-201d90/blob/main/configs/.gitignore)
--TA Mr. Ben Mills helped in attaching image 
+-TA Mr. Ben Mills helped in attaching image.
 
 ## Reflections and Comments
 
