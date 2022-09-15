@@ -38,6 +38,10 @@ ol {
   list-style: 1;
 }
 
+ul {
+  list-style-type: disc;
+}
+
 p {
   margin-top: 10px;;
 }
@@ -50,7 +54,7 @@ p {
   background-color: #d3bacb;
   margin-top: 80px;
   height: 950px;
-  
+
 }
 
 .info-edu, .info-fave {
