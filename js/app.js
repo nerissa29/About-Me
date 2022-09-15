@@ -67,7 +67,7 @@ let score = 0;
 let question6 = Number(prompt('Guess a number from 1 - 20!'));
 
 let num = 8;
-let count = 0;
+let count = 1;
 
 for (let i = count; i < 4; i++) {
   if (question6 === num) {
@@ -90,27 +90,27 @@ for (let i = count; i < 4; i++) {
 alert(`The number I have is ${num}`);
 
 
-let arr = ['black', 'cyan', 'purple', 'magenta', 'fuchsia', 'lime', 'teal', 'navy', 'olive'];
+// let arr = ['black', 'cyan', 'purple', 'magenta', 'fuchsia', 'lime', 'teal', 'navy', 'olive'];
 
-let question7 = prompt(`${userName}, you only have 6 tries! Try to guess a color!`).toLowerCase();
-
-
-let guess = false;
+// let question7 = prompt(`${userName}, you only have 6 tries! Try to guess a color!`).toLowerCase();
 
 
-for (let i = 1; i < 6; i++) {
-  for (let j = 0; j < arr.length; j++) {
-    if (question7 === arr[j]) {
-      score++;
-      // console.log(`${userName}'s guess is correct!`);
-      alert(`Congrats ${userName}! You guessed it RIGHT!`);
-      guess = true;
-    }
-  }
-  if (guess) break;
-  question7 = prompt(`Try agan! ${userName}, try to guess a color!`);
-}
+// let guess = false;
 
-alert(`he colors I have picked are ${arr}`);
+
+// for (let i = 1; i < 6; i++) {
+//   for (let j = 0; j < arr.length; j++) {
+//     if (question7 === arr[j]) {
+//       score++;
+//       // console.log(`${userName}'s guess is correct!`);
+//       alert(`Congrats ${userName}! You guessed it RIGHT!`);
+//       guess = true;
+//     }
+//   }
+//   if (guess) break;
+//   question7 = prompt(`Try agan! ${userName}, try to guess a color!`);
+// }
+
+// alert(`The colors I have picked are ${arr}`);
 
 alert(`Thank you ${userName} for playing this game with me. You got ${score} correct answers! Wooohoo! Have a great day!`);
