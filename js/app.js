@@ -64,12 +64,13 @@ let score = 0;
 
 // }
 
-let question6 = Number(prompt('Guess a number from 1 - 20!'));
+// let question6 = Number(prompt('Guess a number from 1 - 20!'));
 
 let num = 8;
-let count = 1;
+// let count = 1;
 
-for (let i = count; i < 4; i++) {
+for (let i = 0; i < 4; i++) {
+  let question6 = Number(prompt('Guess a number from 1 - 20!'));
   if (question6 === num) {
     score++;
     // console.log(`${userName}'s guess is correct!`);
@@ -78,13 +79,13 @@ for (let i = count; i < 4; i++) {
     break;
   } else if (question6 < num) {
     alert('Too low!');
-    count++;
+    // count++;
   } else if (question6 > num) {
     alert('Too high!');
-    count++;
+    // count++;
   }
 
-  question6 = Number(prompt('Guess a number from 1 - 20!'));
+  // question6 = Number(prompt('Guess a number from 1 - 20!'));
 }
 
 alert(`The number I have is ${num}`);
