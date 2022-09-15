@@ -30,7 +30,11 @@ h3, h2 {
   
 }
 
-ul {
+.outer-ul {
+  list-style: disc;
+}
+
+.inner-ul {
   list-style: circle;
 }
 
