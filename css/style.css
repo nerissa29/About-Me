@@ -1,7 +1,8 @@
 body {
   margin: auto;
   background-color: rgb(247, 236, 237);
-  width: 700px;
+  width: 100%;
+  /* margin-left: 200px; */
 }
 
 h1 {
@@ -19,7 +20,13 @@ h3, h2 {
   padding: 10px;
 }
 
+h4 {
+  font-style:italic;
+}
 
+hr {
+  background-color: #003049;
+}
 
 .pic-div {
   display: flex;
@@ -27,19 +34,12 @@ h3, h2 {
   align-items: center;
   flex-direction: column;
   width: 800px;
-  
-}
-
-.outer-ul {
-  list-style: disc;
-}
-
-.inner-ul {
-  list-style: circle;
+  padding-top: 50px;
+    
 }
 
 ol {
-  list-style: 1;
+  list-style-type: I;
 }
 
 ul {
@@ -57,17 +57,58 @@ p {
   flex-direction: column;
   background-color: #d3bacb;
   margin-top: 80px;
-  height: 950px;
+  margin-left: 380px;
+  height: 175vh;
+  width: 900px;
 
 }
 
-.info-edu, .info-fave {
+.info-edu, .info-fave, .info-bio {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
   background-color: aliceblue;
-  width: 500px;
-  height: 850px;
-  padding-left: 35px;
+  width: 600px;
+  /* height: 850px; */
+  padding: 45px;
+  padding-bottom: 50px;
+}
+
+#email-input, #email-btn {
+  margin-left: 10px;
+}
+
+
+footer {
+  background-color: #300e1b;
+  padding: 0px;
+  margin-top: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.info-sect, .sign-up-sect {
+  display:flex;
+  align-items: center; 
+  padding: 10px 50px 10px 50px; 
+  /* flex-direction: row; */
+  /* justify-content: center; */
+}
+
+
+.info-sect {
+  justify-content:between;
+  margin-right: 50px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ad719a;
+  margin: 20px;
 }
