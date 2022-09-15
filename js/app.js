@@ -12,7 +12,7 @@ let question1 = prompt('Do I have kids?').toLowerCase();
 
 if (question1 === 'y' || question1 === 'yes') {
   // console.log(`${userName}'s guess is correct!`);
-  score++; 
+  score++;
   alert(`${userName}, you are correct. I have two kids!`);
 } else if (question1 === 'n' || question1 === 'no') {
   // console.log(`${userName}'s guess is wrong!`);
