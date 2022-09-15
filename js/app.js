@@ -64,10 +64,8 @@ let score = 0;
 
 // }
 
-// let question6 = Number(prompt('Guess a number from 1 - 20!'));
-
 let num = 8;
-// let count = 1;
+// let count = 0;
 
 for (let i = 0; i < 4; i++) {
   let question6 = Number(prompt('Guess a number from 1 - 20!'));
@@ -84,8 +82,6 @@ for (let i = 0; i < 4; i++) {
     alert('Too high!');
     // count++;
   }
-
-  // question6 = Number(prompt('Guess a number from 1 - 20!'));
 }
 
 alert(`The number I have is ${num}`);
