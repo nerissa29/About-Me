@@ -78,10 +78,10 @@ for (let i = count; i < 4; i++) {
     break;
   } else if (question6 < num) {
     alert('Too low!');
-    // count++;
+    count++;
   } else if (question6 > num) {
     alert('Too high!');
-    // count++;
+    count++;
   }
 
   question6 = Number(prompt('Guess a number from 1 - 20!'));
@@ -98,7 +98,7 @@ let question7 = prompt(`${userName}, you only have 6 tries! Try to guess a color
 let guess = false;
 
 
-for (let i = 0; i < 6; i++) {
+for (let i = 1; i < 6; i++) {
   for (let j = 0; j < arr.length; j++) {
     if (question7 === arr[j]) {
       score++;
