@@ -26,3 +26,5 @@ Questions include:
 Building the webpage structure can be tricky but fun. One needs to know what exactly one wants to accomplish. Such struggles include how I should lay out my bio. What questions should I ask the user that will give them some information about me? The hardest part is how to get all these together.
 
 The biggest struggle is pushing it to the correct directory with the right git command. I indeed need to practice and get used to using git commands. I am hoping to be better on the upcoming projects. More practice it is, and a lot of catching up to do.
+
+## Lab 04
