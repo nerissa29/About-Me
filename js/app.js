@@ -41,7 +41,7 @@ questionTwo();
 
 function questionThree(){
   let question3 = prompt('Did I served in the military?').toLowerCase();
-  
+
   if (question3 === 'y' || question3 === 'yes') {
     // console.log(`${userName}'s guess is correct!`);
     score++;
@@ -53,16 +53,21 @@ function questionThree(){
 }
 
 questionThree();
-let question4 = prompt('Did I work as a Yeoman in admin department?').toLowerCase();
 
-if (question4 === 'y' || question4 === 'yes') {
-  // console.log(`${userName}'s guess is wrong!`);
-  alert(`${userName}, you are wrong! I am a Logistic Specialist working in Supply department!`);
-} else if (question4 === 'n' || question4 === 'no') {
-  // console.log(`${userName}'s guess is correct!`);
-  score++;
-  alert(`${userName}, you are correct! I work in supply department as a Logistic Specialist!`);
+function questionFour(){
+  let question4 = prompt('Did I work as a Yeoman in admin department?').toLowerCase();
+
+  if (question4 === 'y' || question4 === 'yes') {
+    // console.log(`${userName}'s guess is wrong!`);
+    alert(`${userName}, you are wrong! I am a Logistic Specialist working in Supply department!`);
+  } else if (question4 === 'n' || question4 === 'no') {
+    // console.log(`${userName}'s guess is correct!`);
+    score++;
+    alert(`${userName}, you are correct! I work in supply department as a Logistic Specialist!`);
+  }
 }
+
+questionFour();
 
 let question5 = prompt('Am I on my 30\'s?').toLowerCase();
 
