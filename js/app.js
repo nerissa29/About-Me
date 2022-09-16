@@ -39,17 +39,20 @@ function questionTwo(){
 }
 questionTwo();
 
-let question3 = prompt('Did I served in the military?').toLowerCase();
-
-if (question3 === 'y' || question3 === 'yes') {
-  // console.log(`${userName}'s guess is correct!`);
-  score++;
-  alert(`${userName}, you are correct! I served 8 years Active Duty in the Navy!`);
-} else if (question3 === 'n' || question3 === 'no') {
-  // console.log(`${userName}'s guess is wrong!`);
-  alert(`${userName}, you are wrong! I was in ACtive Duty for 8 years!`);
+function questionThree(){
+  let question3 = prompt('Did I served in the military?').toLowerCase();
+  
+  if (question3 === 'y' || question3 === 'yes') {
+    // console.log(`${userName}'s guess is correct!`);
+    score++;
+    alert(`${userName}, you are correct! I served 8 years Active Duty in the Navy!`);
+  } else if (question3 === 'n' || question3 === 'no') {
+    // console.log(`${userName}'s guess is wrong!`);
+    alert(`${userName}, you are wrong! I was in ACtive Duty for 8 years!`);
+  }
 }
 
+questionThree();
 let question4 = prompt('Did I work as a Yeoman in admin department?').toLowerCase();
 
 if (question4 === 'y' || question4 === 'yes') {
