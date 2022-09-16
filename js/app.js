@@ -8,6 +8,19 @@ let userName = prompt('What is your name?');
 alert(`Welcome to my site ${userName}!`);
 
 let score = 0;
+function questionOne (){
+let question1 = prompt('Do I have kids?').toLowerCase();
+
+if (question1 === 'y' || question1 === 'yes') {
+  // console.log(`${userName}'s guess is correct!`);
+  score++;
+  alert(`${userName}, you are correct. I have two kids!`);
+} else if (question1 === 'n' || question1 === 'no') {
+  // console.log(`${userName}'s guess is wrong!`);
+  alert(`${userName}, you are wrong! I am a mother of two!`);
+}
+
+}
 let question1 = prompt('Do I have kids?').toLowerCase();
 
 if (question1 === 'y' || question1 === 'yes') {
