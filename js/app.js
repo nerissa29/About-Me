@@ -8,40 +8,36 @@ let userName = prompt('What is your name?');
 alert(`Welcome to my site ${userName}!`);
 
 let score = 0;
-function questionOne (){
-let question1 = prompt('Do I have kids?').toLowerCase();
+function questionOne(){
+  let question1 = prompt('Do I have kids?').toLowerCase();
 
-if (question1 === 'y' || question1 === 'yes') {
-  // console.log(`${userName}'s guess is correct!`);
-  score++;
-  alert(`${userName}, you are correct. I have two kids!`);
-} else if (question1 === 'n' || question1 === 'no') {
-  // console.log(`${userName}'s guess is wrong!`);
-  alert(`${userName}, you are wrong! I am a mother of two!`);
+  if (question1 === 'y' || question1 === 'yes') {
+    // console.log(`${userName}'s guess is correct!`);
+    score++;
+    alert(`${userName}, you are correct. I have two kids!`);
+  } else if (question1 === 'n' || question1 === 'no') {
+    // console.log(`${userName}'s guess is wrong!`);
+    alert(`${userName}, you are wrong! I am a mother of two!`);
+  }
+
 }
+questionOne();
+
+
+function questionTwo(){
+  let question2 = prompt('Do I have a pet named Petra?').toLowerCase();
+
+  if (question2 === 'y' || question2 === 'yes') {
+    // console.log(`${userName}'s guess is wrong!`);
+    alert(`${userName}, you are wrong! My pet's name is Raiss!`);
+  } else if (question2 === 'n' || question2 === 'no') {
+    // console.log(`${userName}'s guess is correct!`);
+    score++;
+    alert(`${userName}, you are correct! I don't have a pet name Petra!`);
+  }
 
 }
-let question1 = prompt('Do I have kids?').toLowerCase();
-
-if (question1 === 'y' || question1 === 'yes') {
-  // console.log(`${userName}'s guess is correct!`);
-  score++;
-  alert(`${userName}, you are correct. I have two kids!`);
-} else if (question1 === 'n' || question1 === 'no') {
-  // console.log(`${userName}'s guess is wrong!`);
-  alert(`${userName}, you are wrong! I am a mother of two!`);
-}
-
-let question2 = prompt('Do I have a pet named Petra?').toLowerCase();
-
-if (question2 === 'y' || question2 === 'yes') {
-  // console.log(`${userName}'s guess is wrong!`);
-  alert(`${userName}, you are wrong! My pet's name is Raiss!`);
-} else if (question2 === 'n' || question2 === 'no') {
-  // console.log(`${userName}'s guess is correct!`);
-  score++;
-  alert(`${userName}, you are correct! I don't have a pet name Petra!`);
-}
+questionTwo();
 
 let question3 = prompt('Did I served in the military?').toLowerCase();
 
