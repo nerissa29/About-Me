@@ -111,27 +111,29 @@ alert(`The number I have is ${num}`);
 questionSix();
 
 
-
 let arr = ['black', 'cyan', 'purple', 'magenta', 'fuchsia', 'lime', 'teal', 'navy', 'olive'];
 
-let question7 = prompt(`${userName}, you only have 6 tries! Try to guess a color!`).toLowerCase();
 
 
 let guess = false;
 
-
-for (let i = 1; i < 6; i++) {
-  for (let j = 0; j < arr.length; j++) {
-    if (question7 === arr[j]) {
-      score++;
-      // console.log(`${userName}'s guess is correct!`);
-      alert(`Congrats ${userName}! You guessed it RIGHT!`);
-      guess = true;
+function questionSeven(){
+  for (let i = 1; i < 6; i++) {
+    let question7 = prompt(`${userName}, you only have 6 tries! Try to guess a color!`).toLowerCase();
+    for (let j = 0; j < arr.length; j++) {
+      if (question7 === arr[j]) {
+        score++;
+        // console.log(`${userName}'s guess is correct!`);
+        alert(`Congrats ${userName}! You guessed it RIGHT!`);
+        guess = true;
+      }
     }
+    if (guess) break;
+    question7 = prompt(`Try agan! ${userName}, try to guess a color!`);
   }
-  if (guess) break;
-  question7 = prompt(`Try agan! ${userName}, try to guess a color!`);
 }
+
+questionSeven();
 
 alert(`The colors I have picked are ${arr}`);
 
