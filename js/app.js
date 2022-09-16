@@ -104,9 +104,9 @@ function questionSix(){
       alert('Too high!');
       // count++;
     }
+    alert(`The number I have is ${num}`);
   }
 }
-alert(`The number I have is ${num}`);
 
 questionSix();
 
