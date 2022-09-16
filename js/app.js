@@ -88,24 +88,28 @@ questionFive();
 let num = 8;
 // let count = 0;
 
-for (let i = 0; i < 4; i++) {
-  let question6 = Number(prompt('Guess a number from 1 - 20!'));
-  if (question6 === num) {
-    score++;
-    // console.log(`${userName}'s guess is correct!`);
-    alert('You are CORRECT!');
-    // i = 4;
-    break;
-  } else if (question6 < num) {
-    alert('Too low!');
-    // count++;
-  } else if (question6 > num) {
-    alert('Too high!');
-    // count++;
+function questionSix(){
+  for (let i = 0; i < 4; i++) {
+    let question6 = Number(prompt('Guess a number from 1 - 20!'));
+    if (question6 === num) {
+      score++;
+      // console.log(`${userName}'s guess is correct!`);
+      alert('You are CORRECT!');
+      // i = 4;
+      break;
+    } else if (question6 < num) {
+      alert('Too low!');
+      // count++;
+    } else if (question6 > num) {
+      alert('Too high!');
+      // count++;
+    }
   }
 }
-
 alert(`The number I have is ${num}`);
+
+questionSix();
+
 
 
 let arr = ['black', 'cyan', 'purple', 'magenta', 'fuchsia', 'lime', 'teal', 'navy', 'olive'];
