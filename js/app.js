@@ -69,17 +69,21 @@ function questionFour(){
 
 questionFour();
 
-let question5 = prompt('Am I on my 30\'s?').toLowerCase();
+function questionFive(){
+  let question5 = prompt('Am I on my 30\'s?').toLowerCase();
 
-if (question5 === 'y' || question5 === 'yes') {
-  // console.log(`${userName}'s guess is correct!`);
-  score++;
-  alert(`${userName}, you are correct! My age is no longer in the calendar!`);
-} else if (question5 === 'n' || question5 === 'no') {
-  // console.log(`${userName}'s guess is wrong!`);
-  alert(`${userName}, as much as I want you to be correct, you are wrong!`);
+  if (question5 === 'y' || question5 === 'yes') {
+    // console.log(`${userName}'s guess is correct!`);
+    score++;
+    alert(`${userName}, you are correct! My age is no longer in the calendar!`);
+  } else if (question5 === 'n' || question5 === 'no') {
+    // console.log(`${userName}'s guess is wrong!`);
+    alert(`${userName}, as much as I want you to be correct, you are wrong!`);
 
+  }
 }
+
+questionFive();
 
 let num = 8;
 // let count = 0;
