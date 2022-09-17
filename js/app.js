@@ -135,7 +135,8 @@ alert(`Thank you ${userName} for playing this game with me. You got ${score} cor
 
 /*
 
-This part is for Lab04, still working on it and will be submitting soon
+This part is for Lab05, still working on it to work properly inside the function,
+and will be submitting soon
 
 // question 6
 let num = 8;
