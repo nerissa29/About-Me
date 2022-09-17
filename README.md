@@ -15,11 +15,26 @@ Questions include:
 -Did I work as a Yeoman in admin department?
 -Am I on my 30's?
 
+## Lab 03
+
+## Problem Domain In Lab 03
+
+Added 2 questions that require us to loop through the arrays and attempts, giving the user a certain number of tries.
+Added HTML Content, our choice of “Top Ten” wrap inside the ordered list. Converted education and working experience into an unordered list using HTML.
+
+Question 6:
+-Guess a number from 1 - 20! (giving the user 4 tries only)
+
+Question 7
+-Try to guess a color! (giving the user 6 tries only, colors placed into arrays)
+
 ## Links an Resources
 
 -[eslintrc file](https://github.com/codefellows/seattle-code-201d90/blob/main/configs/.eslintrc.json)
 -[gitignore file](https://github.com/codefellows/seattle-code-201d90/blob/main/configs/.gitignore)
 -TA Mr. Ben Mills helped in attaching image.
+-Ms. Audrey helped fixed/sync my VS code into my Repo (Lab03)
+-[Class 03 Lecture notes](https://github.com/codefellows/seattle-code-201d90/tree/main/class-03)
 
 ## Reflections and Comments
 
