@@ -93,26 +93,27 @@ function questionSix() {
 
 questionSix();
 
-
-// question 7 added for Lab 03
 let arr = ['black', 'cyan', 'purple', 'magenta', 'fuchsia', 'lime', 'teal', 'navy', 'olive'];
 
-let guess = false;
-
-for (let i = 0; i < 6; i++) {
-  let question7 = prompt(`${userName}, you only have 6 tries! Try to guess a color!`).toLowerCase();
-  for (let j = 0; j < arr.length; j++) {
-    if (question7 === arr[j]) {
-      score++;
-      // console.log(`${userName}'s guess is correct!`);
-      alert(`Congrats ${userName}! You guessed it RIGHT!`);
-      guess = true;
+function questionSeven() {
+  let guess = false;
+  for (let i = 0; i < 6; i++) {
+    let question7 = prompt(`${userName}, you only have 6 tries! Try to guess a color!`).toLowerCase();
+    for (let j = 0; j < arr.length; j++) {
+      if (question7 === arr[j]) {
+        score++;
+        // console.log(`${userName}'s guess is correct!`);
+        alert(`Congrats ${userName}! You guessed it RIGHT!`);
+        guess = true;
+      }
     }
+    if (guess) break;
   }
-  if (guess) break;
+
+  alert(`The colors I have picked are ${arr.join(', ')}`);
 }
 
-alert(`The colors I have picked are ${arr.join(', ')}`);
+questionSeven();
 
 
 alert(`Thank you ${userName} for playing this game with me. You got ${score} correct answers! Wooohoo! Have a great day!`);
