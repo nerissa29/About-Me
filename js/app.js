@@ -98,7 +98,7 @@ let arr = ['black', 'cyan', 'purple', 'magenta', 'fuchsia', 'lime', 'teal', 'nav
 function questionSeven() {
   let guess = false;
   for (let i = 0; i < 6; i++) {
-    let question7 = prompt(`${userName}, you only have 6 tries! Try to guess a color!`).toLowerCase();
+    let question7 = prompt(`${userName}, you only have 6 tries! Try to guess a color! Try # ${i+1}`).toLowerCase();
     for (let j = 0; j < arr.length; j++) {
       if (question7 === arr[j]) {
         score++;
