@@ -7,6 +7,9 @@ body {
 
 header {
   background-color: #300e1b;
+  color: white;
+  width: 100%;
+  padding: 20px;
 }
 
 h1 {
@@ -50,8 +53,8 @@ p {
   align-items: center;
   flex-direction: column;
   background-color: #d3bacb;
-  margin-top: 80px;
-  margin-left: 380px;
+  margin-top: 50px;
+  /* margin-left: 380px; */
   height: 175vh;
   width: 70%;
   /* width: 900px; */
@@ -96,6 +99,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  width:100%;
 }
 
 .info-sect, .sign-up-sect {
