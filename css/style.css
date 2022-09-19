@@ -1,20 +1,19 @@
 body {
   margin: auto;
-  background-color: rgb(247, 236, 237);
+  background-color: rgb(241, 222, 222);
   width: 100%;
   /* margin-left: 200px; */
 }
 
 header {
   background-color: #300e1b;
-  color: white;
   width: 100%;
   padding: 20px;
 }
 
 h1 {
   text-align: center;
-  color: rgb(92, 62, 62);
+  color: white;
   font-size: 3vw;
   margin-top: 50px;
   margin: auto;
@@ -55,7 +54,10 @@ p {
   background-color: #d3bacb;
   margin-top: 50px;
   /* margin-left: 380px; */
-  height: 175vh;
+  margin: auto;
+  /* height: 175vh; */
+  height: 100%;
+  padding-bottom: 50px;
   width: 70%;
   /* width: 900px; */
 
@@ -68,6 +70,7 @@ p {
   flex-direction: column;
   /* width: 800px; */
   width: 80%;
+  
   padding-top: 50px;
     
 }
@@ -85,14 +88,14 @@ p {
   padding-bottom: 50px;
 }
 
-#email-input, #email-btn {
+#email-input, #email-btn, #sign-up {
   margin-left: 10px;
 }
 
 
 footer {
   background-color: #300e1b;
-  padding: 0px;
+  padding: 20px;
   margin-top: 100px;
   color: white;
   display: flex;
