@@ -28,16 +28,6 @@ hr {
   background-color: #003049;
 }
 
-.pic-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 800px;
-  padding-top: 50px;
-    
-}
-
 ol {
   list-style-type: I;
 }
@@ -59,8 +49,20 @@ p {
   margin-top: 80px;
   margin-left: 380px;
   height: 175vh;
-  width: 900px;
+  width: 70%;
+  /* width: 900px; */
 
+}
+
+.pic-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* width: 800px; */
+  width: 80%;
+  padding-top: 50px;
+    
 }
 
 .info-edu, .info-fave, .info-bio {
@@ -69,7 +71,8 @@ p {
   align-items: flex-start;
   flex-direction: column;
   background-color: aliceblue;
-  width: 600px;
+  /* width: 600px; */
+  width: 80%;
   /* height: 850px; */
   padding: 45px;
   padding-bottom: 50px;
