@@ -5,12 +5,16 @@ body {
   /* margin-left: 200px; */
 }
 
+header {
+  background-color: #300e1b;
+}
+
 h1 {
   text-align: center;
   color: rgb(92, 62, 62);
   font-size: 3vw;
   margin-top: 50px;
-  
+  margin: auto;
 }
 
 h3, h2 {
