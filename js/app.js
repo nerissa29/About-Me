@@ -7,7 +7,7 @@ let userName = prompt('What is your name?');
 alert(`Welcome to my site ${userName}!`);
 
 let score = 0;
-function questionOne(){
+function questionOne() {
   let question1 = prompt('Do I have kids?').toLowerCase();
 
   if (question1 === 'y' || question1 === 'yes') {
@@ -21,7 +21,7 @@ function questionOne(){
 questionOne();
 
 
-function questionTwo(){
+function questionTwo() {
   let question2 = prompt('Do I have a pet named Petra?').toLowerCase();
 
   if (question2 === 'y' || question2 === 'yes') {
@@ -34,7 +34,7 @@ function questionTwo(){
 }
 questionTwo();
 
-function questionThree(){
+function questionThree() {
   let question3 = prompt('Did I served in the military?').toLowerCase();
 
   if (question3 === 'y' || question3 === 'yes') {
@@ -47,7 +47,7 @@ function questionThree(){
 
 questionThree();
 
-function questionFour(){
+function questionFour() {
   let question4 = prompt('Did I work as a Yeoman in admin department?').toLowerCase();
 
   if (question4 === 'y' || question4 === 'yes') {
@@ -60,7 +60,7 @@ function questionFour(){
 
 questionFour();
 
-function questionFive(){
+function questionFive() {
   let question5 = prompt('Am I on my 30\'s?').toLowerCase();
 
   if (question5 === 'y' || question5 === 'yes') {
@@ -74,24 +74,24 @@ function questionFive(){
 
 questionFive();
 
-
-// Question 6 added for Lab 03
-let num = 8;
-
-for (let i = 0; i < 4; i++) {
-  let question6 = Number(prompt('Guess a number from 1 - 20!'));
-  if (question6 === num) {
-    score++;
-    alert('You are CORRECT!');
-    break;
-  } else if (question6 < num) {
-    alert('Too low!');
-  } else if (question6 > num) {
-    alert('Too high!');
+function questionSix() {
+  let num = 8;
+  for (let i = 0; i < 4; i++) {
+    let question6 = Number(prompt('Guess a number from 1 - 20!'));
+    if (question6 === num) {
+      score++;
+      alert('You are CORRECT!');
+      break;
+    } else if (question6 < num) {
+      alert('Too low!');
+    } else if (question6 > num) {
+      alert('Too high!');
+    }
   }
+  alert(`The number I have is ${num}`);
 }
 
-alert(`The number I have is ${num}`);
+questionSix();
 
 
 // question 7 added for Lab 03
