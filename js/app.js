@@ -8,7 +8,7 @@ alert(`Welcome to my site ${userName}!`);
 
 let score = 0;
 function questionOne() {
-  let question1 = prompt('Do I have kids?').toLowerCase();
+  let question1 = prompt('Do I have kids (y/n)?').toLowerCase();
 
   if (question1 === 'y' || question1 === 'yes') {
     score++;
@@ -22,7 +22,7 @@ questionOne();
 
 
 function questionTwo() {
-  let question2 = prompt('Do I have a pet named Petra?').toLowerCase();
+  let question2 = prompt('Do I have a pet named Petra (y/n)?').toLowerCase();
 
   if (question2 === 'y' || question2 === 'yes') {
     alert(`${userName}, you are wrong! My pet's name is Raiss!`);
@@ -35,7 +35,7 @@ function questionTwo() {
 questionTwo();
 
 function questionThree() {
-  let question3 = prompt('Did I served in the military?').toLowerCase();
+  let question3 = prompt('Did I served in the military (y/n)?').toLowerCase();
 
   if (question3 === 'y' || question3 === 'yes') {
     score++;
@@ -48,7 +48,7 @@ function questionThree() {
 questionThree();
 
 function questionFour() {
-  let question4 = prompt('Did I work as a Yeoman in admin department?').toLowerCase();
+  let question4 = prompt('Did I work as a Yeoman in admin department (y/n)?').toLowerCase();
 
   if (question4 === 'y' || question4 === 'yes') {
     alert(`${userName}, you are wrong! I am a Logistic Specialist working in Supply department!`);
@@ -61,7 +61,7 @@ function questionFour() {
 questionFour();
 
 function questionFive() {
-  let question5 = prompt('Am I on my 30\'s?').toLowerCase();
+  let question5 = prompt('Am I on my 30\'s (y/n)?').toLowerCase();
 
   if (question5 === 'y' || question5 === 'yes') {
     score++;
